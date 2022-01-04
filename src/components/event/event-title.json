@@ -1,0 +1,38 @@
+{
+  "collectionName": "components_event_event_titles",
+  "info": {
+    "displayName": "event_info",
+    "icon": "suitcase",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "files": {
+      "type": "media",
+      "multiple": true,
+      "required": false,
+      "allowedTypes": [
+        "files"
+      ]
+    },
+    "link": {
+      "type": "string",
+      "regex": "^(?:http(s)?:\\/\\/)?[\\w.-]+(?:\\.[\\w\\.-]+)+[\\w\\-\\._~:/?#[\\]@!\\$&'\\(\\)\\*\\+,;=.]+$"
+    },
+    "start_date": {
+      "type": "date",
+      "required": true
+    },
+    "End_date": {
+      "type": "date",
+      "required": false
+    },
+    "description": {
+      "type": "richtext"
+    }
+  }
+}

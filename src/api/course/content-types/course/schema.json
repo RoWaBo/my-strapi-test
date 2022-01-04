@@ -1,0 +1,32 @@
+{
+  "kind": "collectionType",
+  "collectionName": "courses",
+  "info": {
+    "singularName": "course",
+    "pluralName": "courses",
+    "displayName": "Course",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "description": {
+      "type": "text"
+    },
+    "course_event": {
+      "type": "component",
+      "repeatable": true,
+      "component": "event.event-title"
+    },
+    "sort_course_events_by_newest_date": {
+      "type": "boolean",
+      "default": true
+    }
+  }
+}

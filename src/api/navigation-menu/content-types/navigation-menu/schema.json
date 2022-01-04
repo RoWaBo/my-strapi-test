@@ -1,0 +1,24 @@
+{
+  "kind": "singleType",
+  "collectionName": "navigation_menus",
+  "info": {
+    "singularName": "navigation-menu",
+    "pluralName": "navigation-menus",
+    "displayName": "Navigation menu"
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "logo": {
+      "type": "string",
+      "required": true
+    },
+    "Menu_item": {
+      "type": "component",
+      "repeatable": true,
+      "component": "menu.nav-menu-item"
+    }
+  }
+}

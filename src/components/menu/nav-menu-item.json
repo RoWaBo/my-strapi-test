@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_menu_nav_menu_items",
+  "info": {
+    "displayName": "Nav_menu_item",
+    "icon": "align-justify"
+  },
+  "options": {},
+  "attributes": {
+    "name": {
+      "type": "string",
+      "required": true,
+      "unique": true
+    },
+    "href": {
+      "type": "string",
+      "required": true,
+      "unique": true,
+      "regex": "^[\\/]\\w+|^[\\/]"
+    }
+  }
+}
